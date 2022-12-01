@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images & responsiveness in HTML</title>
+    <link src="short cut icon" href="/assets/lecture12.html"type="image/x-icon">
+</head>
+<body><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb34G_hmzJk7_b-SCNti2qXH3ccaEt2uE62Q&usqp=CAU.jpg"alt="House"
+    srcset="/assets/small.jpg 480w,/assets/medium.jpg 800w,/assets/large.jpg 1200w"
+    sizes="(max.width: 480px) 240px,(max.width: 960px) 480px,(max width: 1440px) 960px">
+
+    <picture>
+        <source media="(max width: 600px)" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb34G_hmzJk7_b-SCNti2qXH3ccaEt2uE62Q&usqp=CAU.jpg">
+        <source media="(max width: 900px)" srcset="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb34G_hmzJk7_b-SCNti2qXH3ccaEt2uE62Q&usqp=CAU.jpg">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTb34G_hmzJk7_b-SCNti2qXH3ccaEt2uE62Q&usqp=CAU.jpg"alt="">
+    </picture>
+    
+
+    
+</body>
+</html>
